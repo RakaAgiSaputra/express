@@ -57,7 +57,7 @@
       <div class="w-32 h-32 m-auto">Kotak 1</div>
     </section>
 
-    <section class="font-inter max-w-3xl mx-auto ">
+    <section class="font-inter max-w-3xl mx-auto">
       <h2 class="mb-2 text-4xl">
         Belajar Mengenai Typography pada TailwindCSS
       </h2>
@@ -121,58 +121,77 @@
       style="background-image: url('img/image.png')"
     ></div>
 
-    <section class=" max-w-lg w-1/2 mx-auto p-2">
-      <div class="mt-32 bg-slate-50 rounded-lg p-3" >
-        <img src="https://source.unsplash.com/500x500?research" alt="..." class="rounded-lg cursor-pointer">
+    <section class="max-w-lg w-1/2 mx-auto p-2">
+      <div class="mt-32 bg-slate-50 rounded-lg p-3">
+        <img
+          src="https://source.unsplash.com/500x500?research"
+          alt="..."
+          class="rounded-lg cursor-pointer"
+        />
         <h1 class="font-bold ml-1">Hasil Penelitian Algoritma Rekasonsuss</h1>
         <p class="ml-1">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur dolores labore voluptas voluptatum nulla impedit, consectetur eveniet nihil soluta incidunt.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur
+          dolores labore voluptas voluptatum nulla impedit, consectetur eveniet
+          nihil soluta incidunt.
         </p>
       </div>
       <div class="w-16 h-8 mt-2 ml-2 flex gap-2">
-        <button class="bg-slate-600 rounded-lg px-7 hover:bg-slate-300 active:ring-1 active:ring-blue-800 focus:bg-black">
-          <span class="text-white">
-          Simpan
-          </span>
+        <button
+          class="bg-slate-600 rounded-lg px-7 hover:bg-slate-300 active:ring-1 active:ring-blue-800 focus:bg-black"
+        >
+          <span class="text-white"> Simpan </span>
         </button>
-  
-        <button class="bg-slate-400 rounded-lg px-7 hover:bg-slate-300 focus:bg-black">
-          <span class="text-white">
-          Hapus
-          </span>
+
+        <button
+          class="bg-slate-400 rounded-lg px-7 hover:bg-slate-300 focus:bg-black"
+        >
+          <span class="text-white"> Hapus </span>
         </button>
       </div>
     </section>
 
-      <table class="table-fixed border mx-auto mt-32">
-  <thead class="bg-slate-400">
-    <tr>
-      <th>Song</th>
-      <th>Artist</th>
-      <th>Year</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
-      <td>Malcolm Lockyer</td>
-      <td>1961</td>
-    </tr>
-    <tr>
-      <td>Witchy Woman</td>
-      <td>The Eagles</td>
-      <td>1972</td>
-    </tr>
-    <tr>
-      <td>Shining Star</td>
-      <td>Earth, Wind, and Fire</td>
-      <td>1975</td>
-    </tr>
-  </tbody>
-</table>
+    <table class="table-fixed border mx-auto mt-32">
+      <thead class="bg-slate-400">
+        <tr>
+          <th>Song</th>
+          <th>Artist</th>
+          <th>Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
+          <td>Malcolm Lockyer</td>
+          <td>1961</td>
+        </tr>
+        <tr>
+          <td>Witchy Woman</td>
+          <td>The Eagles</td>
+          <td>1972</td>
+        </tr>
+        <tr>
+          <td>Shining Star</td>
+          <td>Earth, Wind, and Fire</td>
+          <td>1975</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="button-tg flex justify-center mt-3">
+      <label for="toogle" class="flex">
+        <span> dark </span>
+        <input id="toogle" type="checkbox" class="invisible" />
+        <div class="w-11 h-6 bg-indigo-400 rounded-lg flex border-b-2">
+          <div
+            class="w-1/2 h-5 bg-slate-50 rounded-full my-auto ml-[3.5px]"
+          ></div>
+        </div>
+        <span class="ml-3"> light </span>
+      </label>
+    </div>
 
     <div class="mb-96"></div>
-
     <div class="mb-96"></div>
   </body>
+  <script src="logic.js"></script>
 </html>
